@@ -312,6 +312,7 @@
 
         .timeline {
             width: 80%;
+            background: #000;
             height: auto;
             max-width: 800px;
             margin: 0 auto;
@@ -391,6 +392,8 @@
         /* Footer */
         footer {
             text-align: center;
+            width: 100vw;
+            postion: relative;
             padding: 20px;
             background: linear-gradient(135deg, #ff007f, #5500ff);
             margin-top: 20px;
@@ -419,7 +422,6 @@
     <main class="container">
         <section class="section section-hero" id="home-section">
             <div class="hero-section-content">
-                <h1>I AM</h1>
                 <h1>TAVADA (LELO) MPOFU</h1>
                 <p class="tag-line">Final year Information Technology Student</p>
                 <div class="social-icons-wrapper">
