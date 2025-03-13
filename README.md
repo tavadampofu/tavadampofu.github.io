@@ -24,6 +24,7 @@
             align-items: center;
             position: fixed;
             width: 100%;
+            height: 190px;
             top: 0;
             left: 0;
             z-index: 1000;
@@ -268,6 +269,10 @@
         /* Sections */
         .section {
             padding: 50px 10%;
+            background-color: black
+            border: none !important; 
+            margin: 0 !important;
+            padding: 0;
         }
 
         .section-content {
@@ -397,6 +402,7 @@
             padding: 20px;
             background: linear-gradient(135deg, #ff007f, #5500ff);
             margin-top: 20px;
+            margin: 0;
         }
     </style>
 </head>
@@ -486,8 +492,7 @@
         </pre>
       </div>
     </div>
-  </div>
-</div>
+  
 
 
         <section class="section section-about" id="about-section">
@@ -595,7 +600,4 @@
         <footer>
             <p>&copy; 2025 Tavada(lelo) Mpofu. All Rights Reserved.</p>
         </footer>
-    </main>
-</body>
-
-</html>
+    
